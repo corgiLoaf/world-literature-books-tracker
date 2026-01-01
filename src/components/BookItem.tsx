@@ -69,8 +69,7 @@ export const BookItem = ({
               세계문학전집 {book.id}
             </span>
           </div>
-
-          <div className="h-2 " style={{ backgroundColor: book.color }} />
+          <div className="h-1 rounded-full bg-linear-to-r from-amber-500 to-orange-500 opacity-80" />
 
           <div className="flex items-center justify-between gap-3">
             <p className={`text-sm font-medium ${titleTone}`}>{book.title}</p>
